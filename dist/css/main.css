@@ -175,8 +175,14 @@ main {
     grid-area: job3; }
   .about-info .job {
     background: #515151;
+    text-align: center;
     padding: 0.5rem;
     border-bottom: #eece1a 3px solid; }
+    .about-info .job h3 {
+      padding-top: 1rem;
+      line-height: 0; }
+    .about-info .job h5 {
+      line-height: 0; }
 
 .projects {
   display: grid;
